@@ -7,4 +7,4 @@ Second version of interface and DTO+ETOs for project. This time in collaboration
 
 xml documentation has been written for each method in the Common Interface.
 
-<b>The rest of the assigment is given in a pdf file with Use Case models etc.</b>
+<b>The rest of the assigment is in a pdf file with Use Case models etc. - Filename "03-FerrycaseContract.pdf" </b>
