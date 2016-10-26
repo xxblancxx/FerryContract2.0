@@ -11,5 +11,11 @@ namespace Toolbox3_Library_Hundige
     {
         public double Amount { get; set; }
         public Route ConnectedRoute { get; set; }
+
+        public Price(double amount, Route connectedRoute)
+        {
+            Amount = amount;
+            ConnectedRoute = connectedRoute;
+        }
     }
 }

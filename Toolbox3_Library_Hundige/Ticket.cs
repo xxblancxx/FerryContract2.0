@@ -14,6 +14,13 @@ namespace Toolbox3_Library_Hundige
         public Vehicle Transportation { get; set; }
         public Customer RefCustomer { get; set; }
 
+        public Ticket(Reservation reservationForTicket, TicketType type, Vehicle transportation, Customer referencedCustomer)
+        {
+            ReservationForTicket = reservationForTicket;
+            Type = type;
+            Transportation = transportation;
+            RefCustomer = referencedCustomer;
 
+        }
     }
 }

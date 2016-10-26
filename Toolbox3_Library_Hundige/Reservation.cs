@@ -13,5 +13,11 @@ namespace Toolbox3_Library_Hundige
         public int ReservationNumber { get; set; }
         public bool HasArrived { get; set; }
 
+        public Reservation(Departure referencedDeparture, int reservationNumber, bool hasArrived)
+        {
+            RefDeparture = referencedDeparture;
+            ReservationNumber = reservationNumber;
+            HasArrived = hasArrived;
+        }
     }
 }

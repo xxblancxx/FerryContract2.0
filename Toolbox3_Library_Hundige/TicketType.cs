@@ -10,5 +10,9 @@ namespace Toolbox3_Library_Hundige
     class TicketType
     {
         public Price PriceOfTicket { get; set; }
+        public TicketType(Price priceOfTicket)
+        {
+            PriceOfTicket = priceOfTicket;
+        }
     }
 }

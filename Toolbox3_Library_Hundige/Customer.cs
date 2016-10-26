@@ -9,6 +9,7 @@ namespace Toolbox3_Library_Hundige
     [Serializable]
     class Customer
     {
+
         public string Username { get; set; }
         public string Password { get; set; }
         public string Email { get; set; }
@@ -16,8 +17,13 @@ namespace Toolbox3_Library_Hundige
         public enum ForeignerOrLocal { Foreigner, Local }
         public bool IsLocal { get; set; }
 
-        public Customer(ForeignerOrLocal foreignerOrLocal)
+        public Customer(ForeignerOrLocal foreignerOrLocal, string username, string password, string email)
         {
+            Username = username;
+            Password = password;
+            Email = email;
+
+
             if (foreignerOrLocal == ForeignerOrLocal.Local)
             {
                 IsLocal = true;

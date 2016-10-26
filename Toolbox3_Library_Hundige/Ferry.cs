@@ -14,5 +14,14 @@ namespace Toolbox3_Library_Hundige
         public int VehicleCapacity { get; set; }
         public int WeightCapacityInKg { get; set; }
         public bool IsReserve { get; set; }
+
+        public Ferry(string name, int peopleCapacity, int vehicleCapacity, int weightCapacityInKg, bool isReserve)
+        {
+            Name = name;
+            PeopleCapacity = peopleCapacity;
+            VehicleCapacity = vehicleCapacity;
+            WeightCapacityInKg = weightCapacityInKg;
+            IsReserve = IsReserve;
+        }
     }
 }
