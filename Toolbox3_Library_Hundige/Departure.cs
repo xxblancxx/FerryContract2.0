@@ -11,5 +11,11 @@ namespace Toolbox3_Library_Hundige
     {
         public Ferry SailingFerry { get; set; }
         public DateTime DateAndTime { get; set; }
+
+        public Departure(Ferry sailingFerry, DateTime dateAndTime)
+        {
+            SailingFerry = sailingFerry;
+            DateAndTime = dateAndTime;
+        }
     }
 }
