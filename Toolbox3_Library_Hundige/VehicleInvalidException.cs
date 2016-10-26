@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Toolbox3_Library_Hundige
 {
     [Serializable]
-    class VehicleInvalidException : ArgumentException
+    public class VehicleInvalidException : ArgumentException
     {
         public VehicleInvalidException(string message) : base(message)
         {

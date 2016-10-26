@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Toolbox3_Library_Hundige
 {
     [Serializable]
-    class Person
+    public class Person
     {
         public string Name { get; set; }
         public string Email { get; set; }

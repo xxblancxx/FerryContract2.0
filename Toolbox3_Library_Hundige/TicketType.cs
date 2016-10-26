@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Toolbox3_Library_Hundige
 {
     [Serializable]
-    class TicketType
+    public class TicketType
     {
         public Price PriceOfTicket { get; set; }
         public TicketType(Price priceOfTicket)

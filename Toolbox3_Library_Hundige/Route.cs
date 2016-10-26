@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Toolbox3_Library_Hundige
 {
     [Serializable]
-    class Route
+    public class Route
     {
         public Departure RefDeparture { get; set; }
         public string Destination { get; set; }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Toolbox3_Library_Hundige
 {
     [Serializable]
-    class WeightCapacityException : ArgumentOutOfRangeException
+    public class WeightCapacityException : ArgumentOutOfRangeException
     {
         public WeightCapacityException(string message) : base(message)
         {

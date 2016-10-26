@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Toolbox3_Library_Hundige
 {
     [Serializable]
-    class Vehicle
+    public class Vehicle
     {
         public enum CarOrTruck { None,Car, Truck }
         public bool IsTruck { get; set; }

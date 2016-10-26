@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Toolbox3_Library_Hundige
 {
     [Serializable]
-    class Ticket
+    public class Ticket
     {
         public Reservation ReservationForTicket { get; set; }
         public TicketType Type { get; set; }

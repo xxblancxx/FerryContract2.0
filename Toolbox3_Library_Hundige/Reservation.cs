@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Toolbox3_Library_Hundige
 {
     [Serializable]
-    class Reservation
+    public class Reservation
     {
         public Departure RefDeparture { get; set; }
         public int ReservationNumber { get; set; }

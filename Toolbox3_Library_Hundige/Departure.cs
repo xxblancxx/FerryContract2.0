@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Toolbox3_Library_Hundige
 {
     [Serializable]
-    class Departure
+    public class Departure
     {
         public Ferry SailingFerry { get; set; }
         public DateTime DateAndTime { get; set; }

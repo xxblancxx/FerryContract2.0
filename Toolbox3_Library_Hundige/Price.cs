@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Toolbox3_Library_Hundige
 {
     [Serializable]
-    class Price
+    public class Price
     {
         public double Amount { get; set; }
         public Route ConnectedRoute { get; set; }

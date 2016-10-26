@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Toolbox3_Library_Hundige
 {
     [Serializable]
-    class PersonCapacityException : ArgumentOutOfRangeException
+    public class PersonCapacityException : ArgumentOutOfRangeException
     {
         public PersonCapacityException(string message) : base(message)
         {

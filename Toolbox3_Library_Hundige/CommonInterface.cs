@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Toolbox3_Library_Hundige
 {
-    interface CommonInterface
+    public interface CommonInterface
     {
 
         //Create reservation
